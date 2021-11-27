@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: MIT
  *
  * ajcav2@alex-desktop:~/zmk/app$ source ../zephyr/zephyr-env.sh
- * ajcav2@alex-desktop:~/zmk/app$ west build -d build/left -p -b nice_nano -- -DSHIELD=corne_left
- * ajcav2@alex-desktop:~/zmk/app$ west build -d build/right -p -b nice_nano -- -DSHIELD=corne_right
+ * ajcav2@alex-desktop:~/zmk/app$ west build -d build/left -p -b nice_nano_v2 -- -DSHIELD=corne_left
+ * ajcav2@alex-desktop:~/zmk/app$ west build -d build/right -p -b nice_nano_v2 -- -DSHIELD=corne_right
  */
 
 #include <behaviors.dtsi>
